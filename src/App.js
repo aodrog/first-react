@@ -1,12 +1,11 @@
 import React from 'react';
-import Planets from './components/planets'
-import './App.css'
-
+import './App.css';
+import Views from './routes';
 
 function App() {
   return (
     <div>
-      <Planets/>
+      <Views/>
     </div>
   );
 }

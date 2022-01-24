@@ -20,7 +20,6 @@ useEffect(() => {
 
 const addPlanet = (new_planet) => {
     setPlanets([...planets, new_planet]);
-    console.log([planets])
 }
 
 return ( 
